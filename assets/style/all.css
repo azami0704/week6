@@ -12885,7 +12885,7 @@ input:-webkit-autofill:active {
     border: 1px solid #62DB54;
     opacity: 1;
   }
-  .feature-list-card .list-wrap:hover .material-icons {
+  .feature-list-card .list-wrap:hover .material-icons-gradient {
     color: transparent;
   }
 }
