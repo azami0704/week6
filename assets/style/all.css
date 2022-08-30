@@ -12958,8 +12958,10 @@ input:-webkit-autofill:active {
   border: 1px solid transparent;
 }
 
-.hot-class .card:hover {
-  border: 1px solid #62DB54;
+@media (min-width: 993px) {
+  .hot-class .card:hover {
+    border: 1px solid #62DB54;
+  }
 }
 
 .class-description {
@@ -13098,8 +13100,10 @@ input:-webkit-autofill:active {
   border-right: 1px solid #62DB54;
 }
 
-.card:hover .square {
-  opacity: 1;
+@media (min-width: 993px) {
+  .card:hover .square {
+    opacity: 1;
+  }
 }
 
 .experience {
@@ -13199,7 +13203,7 @@ input:-webkit-autofill:active {
   border-radius: 50px;
 }
 
-.swiper-pagination-horizontal {
+.swiper-pagination-bullets.swiper-pagination-horizontal {
   width: auto;
 }
 
