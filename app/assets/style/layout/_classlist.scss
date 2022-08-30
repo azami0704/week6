@@ -1,0 +1,29 @@
+.class-category{
+    padding-top: 90px;
+}
+
+.class-category-list{
+    padding-top: 40px;
+    overflow-x: auto;
+    @include pc {
+        padding-top: 44px;
+    }
+    a{
+        display: inline-block;
+    }
+}
+
+.class-list{
+    .img-block{
+        img{
+            width: 100px;
+            object-fit: cover;
+        }
+    }
+    .card-body{
+        @include pc{
+            padding-top: 6px;
+            margin-right: 88px;
+        }
+    }
+}
