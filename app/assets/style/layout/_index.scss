@@ -325,7 +325,9 @@ input:-webkit-autofill:active {
   .card{
     border: 1px solid transparent;
     &:hover{
-      border: 1px solid $green;
+      @include pc{
+        border: 1px solid $green;
+      }
     }
   }
 }
@@ -446,7 +448,9 @@ input:-webkit-autofill:active {
 
 .card:hover{
   .square{
+    @include pc{
       opacity: 1;
+    }
   }
 }
 
@@ -526,7 +530,7 @@ input:-webkit-autofill:active {
     }
   }
 }
-.swiper-pagination-horizontal{
+.swiper-pagination-bullets.swiper-pagination-horizontal{
   width: auto;
 }
 
